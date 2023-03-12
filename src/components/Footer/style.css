@@ -1,0 +1,16 @@
+footer {
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    color: red;
+    bottom: 10px;
+}
+p {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+}
+i {
+    font-size: 10px;
+}

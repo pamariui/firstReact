@@ -1,0 +1,9 @@
+.container {
+    background-image: url(../../../public/background.jpg);
+    height: calc(100vh - 110px);
+    background-size: cover;
+    
+    background-position: center;
+    position: relative;
+    border-top: 2px solid brown;
+}

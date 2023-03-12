@@ -1,24 +1,43 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Container from './components/container';
+import DiscountBar from './components/DiscountBar';
+import Footer from './components/Footer';
+import Link from './components/link/';
+import Main from './components/Main';
+import Navbar from './components/Navbar';
+
+
+const links = [{link: "Sign in"},{link:"More"}];
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar>
+          {
+            links.map((el,i) => (
+              <Link key={`link-${i}`} link='#' text={el.link} />
+            ))
+          }
+      </Navbar>
+      <Main>
+         <DiscountBar 
+         condition='FREE SHIPPING: Physical textbook orders of $85+.'
+         code='CHEGGFREESHIP'/>
+         
+         <Container>
+            <h1>labas</h1>
+            <h2>hy</h2>
+         </Container>
+           
+         
+      </Main>
+      <Footer
+          copy ='MP'
+          years= '2023'
+      /> 
+    </>
   );
 }
 

@@ -1,0 +1,25 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+.short {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.logo i {
+    font-size: 8px;
+    font-weight: 100;
+    margin: 2px;
+    margin-bottom: 12px;
+}
+
+.logo:hover {
+    color: rgba(255, 255, 255, 0.897);
+    text-shadow: 1px 1px  rgb(0, 0, 0) ;
+}

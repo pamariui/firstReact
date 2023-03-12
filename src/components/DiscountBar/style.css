@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+.discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color:#C9AF9E;
+    margin: 0 40px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.discount i {
+    color:brown;
+    transform: scaleX(-1);
+    margin: 5px;
+}
+
+.code {
+    font-weight: 700;
+    color: #60390E;
+}
