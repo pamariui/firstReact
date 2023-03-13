@@ -1,0 +1,11 @@
+.btn{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    background:linear-gradient(#bd926ea0,#61605f36,#bd926ea0); 
+}
+
+.active {
+    background: linear-gradient(#bd926ede,#9e5914,#bd926ed7) ;
+}

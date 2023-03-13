@@ -62,11 +62,11 @@ function App() {
                   btns.map((el,i) => {
                     return (
                       <Button 
+                        key={`btn-${i}`}
                         name = {el.btn}
-                      ><span>
-                        {el.new ? 'New' : ''}
-                      </span>
-                        {el.btn}
+                        className = {el.new ? 'btn  new' : el.active ? 'btn active' : 'btn'}
+                        
+                      > 
                       </Button>
                     )
                   })

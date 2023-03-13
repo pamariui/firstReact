@@ -5,11 +5,11 @@ const Footer= ({copy, years}) => {
   return (
     <footer>
         <p>
-        {copy} <i class="fa-sharp fa-regular fa-copyright"></i>  {years}
+        {copy} <i className="fa-sharp fa-regular fa-copyright"></i>  {years}
         </p>
         
     </footer>
   )
 }
 
-export default Footer
+export default Footer;
